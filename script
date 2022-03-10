@@ -159,7 +159,7 @@ function library:New(name)
 	library.uiopen = true      
 
 	game:GetService("UserInputService").InputBegan:Connect(function(key)      
-		if key.KeyCode == Enum.KeyCode.z then      
+		if key.KeyCode == Enum.KeyCode.Z then      
 			Ova.Enabled = not Ova.Enabled      
 			library.uiopen = Ova.Enabled      
 		end      
